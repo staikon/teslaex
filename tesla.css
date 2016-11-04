@@ -1,0 +1,77 @@
+#bg_top {
+	width: 100%;
+	height: auto;
+
+	background-image: url(hero-bg.png);
+	background-repeat: no-repeat 0 0; 
+	background-position: center;
+	position: absolute;
+}
+
+.head {
+	overflow: hidden;
+}
+
+.head img {
+	float: left;
+	padding-left: 130px;
+}
+
+.head ul {
+	padding-right: 130px;
+	padding-top: 50px;
+	float: right;
+}
+
+.head li {
+	display: inline;
+	float: right;
+	padding: 3px 6px;
+	color: #adadad;
+}
+
+.head li:hover {
+	padding: 3px 6px;
+	color: #ffffff;
+}
+
+.presentation {
+	float: right;
+	padding-top: 120px;
+	padding-right: 10%;
+}
+
+.presentation h1 {
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.presentation p {
+	padding-top: 20px;
+	color: #cdcdcd;
+}
+
+.presentation h2 {
+	margin-top: 50px;
+	border: 8px solid white;
+	height: 60px;
+	width: 230px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.circle {
+	float: left;
+	padding-top: 230px;
+	padding-left: 85px;
+}
+
+.circle a{
+	background: #9a9ca9;
+	list-style-type: circle;
+	padding-top: 3px;
+	padding-left: 20px;
+	border-radius: 20px;
+}

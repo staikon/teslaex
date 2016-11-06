@@ -1,3 +1,5 @@
+
+
 #bg_top {
 	width: 100%;
 	height: auto;
@@ -6,29 +8,28 @@
 	background-size: 100%;
 	background-repeat: no-repeat 0 0; 
 	background-position: center;
-    position: absolute;
 }
 
 .head {
 	overflow: hidden;
+    margin: 0px 20px;
 }
 
 .head img {
 	float: left;
-	padding-left: 130px;
-    padding-top: 40px
 }
 
 .head ul {
-	list-style: none;
-	padding-right: 130px;
-	padding-top: 70px;
-	float: right;
+    float: right;
+    overflow: hidden;
+    
+    vertical-align: middle;
+    line-height: 128px;
 }
 
 .head ul li {
-	display: inline;
-	float: right;	
+    margin: 0px 20px;
+	float: left;	
 }
 
 .head ul li a{
@@ -42,63 +43,24 @@
 	color: #ffffff;
 }
 
-.presentation{
+#button{
     overflow: hidden;
+    float: left;
 }
 
-.presentation {
-	float: right;
-	padding-right: 6%;
-	
+#button ul{
+    margin: 150px 85px;
 }
 
-
-.presentation h1 {
-	font-size: 40px;
-	color: #ffffff;
-}
-
-.presentation p {
-	margin-top: 40px;
-	color: #cdcdcd;
-    margin-bottom: 50px;
-}
-
-.presentation a{
-	border: 2px solid white;
-	width: 120px;
-	text-align: center;
-	color: #ffffff;
-	padding: 9px 16px 5px;
-	font-size: 25px;
-	text-decoration: none;
-}
-
-.presentation h2{
-    padding-top: 45px; 
-    height: 130px;
-    width: 30px;
-}
-
-.button{
-    overflow: hidden;
-}
-
-.button ul{
-	float: left;
-	padding-top: 20%;
-	padding-left: 85px;
-}
-
-.button ul li {
+#button ul li {
 	background-color: #9a9ca9;
 	padding: 10px 10px;
 	margin-bottom: 24px;
 	border-radius: 50%;
 }
 
-.button ul li:hover{
-	padding: 10px 10px;
+#button ul li:hover{
+	padding: 9px 9px;
 	margin-bottom: 24px;
 	border-radius: 50%;
 	border: solid 1px;
@@ -106,102 +68,240 @@
 	background-color: transparent;
 }
 
-.perfomance{
+.presentation{
+    float: right;
+    width: 30%;
+    margin-top: 40px;
+    padding-bottom: 160px;
+    margin-right: 8%;
+    background: url(bullets_bottom.png) no-repeat bottom left;
+}
+
+.presentation h1 {
+	font-size: 36px;
+	color: #ffffff;
+}
+
+.presentation p {
+	margin: 20px 0px;
+	color: #cdcdcd;
+}
+
+.presentation a{
+	color: #ffffff;
+	font-size: 25px;
+	text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+#auto{
     overflow: hidden;
+    margin-top: 500px;
+    
+    width: 100%;
+    vertical-align: middle;
 }
 
-.perfomance {
+#auto .seats{
+    margin-left: 10%;
+    margin-bottom: 6%;
     float: left;
-    padding-bottom: 4%;
-    padding-top: 8%;
-    text-align: center;
-    padding-left: 10%;
+    padding-top: 150px;
+    background: url(bullets_top.png) no-repeat top;
 }
 
-.perfomance img{
-    height: 170px;
-    width: 40px;
-}
-
-.perfomance h2{
-    color: #ffffff;
+.seats h1{
     font-size: 100px;
-    font-family: serif;
+    color: #ffffff;
 }
 
-.perfomance p{
-    color: #bbbbbb;
-    font-size: 12px
+.seats p{
+    color: #cdcdcf;
+    font-size: 13px;
 }
 
-.acceleration{
-    overflow: hidden;
+#auto .acceleration{
+    margin-bottom: 6%;
     float: left;
-    padding-bottom: 4%;
-    padding-top: 9%;
-    text-align: center;
-    padding-left: 18%;
+    margin-left: 20%;
+    padding-top: 150px;
+    background: url(bullets_top.png) no-repeat top;
 }
 
-.acceleration img{
-    height: 160px;
-    width: 40px;
-}
-
-.acceleration ul li{
-    color: #ffffff;
-    display: inline;
-}
-
-.acceleration ul li:first-child{
+.acceleration h1{
     font-size: 100px;
+    color: #ffffff;
 }
 
-.acceleration ul li:last-child{
+.acceleration h1 span{
     font-size: 50px;
+    vertical-align: top;
 }
 
 .acceleration p{
-    color: #bbbbbb;
-    font-size: 12px;
+    color:#cdcdcf;
+    font-size: 13px;
 }
 
-.range{
-    overflow: hidden;
+#auto .range{
+    margin-bottom: 6%;
     float: right;
-    padding-bottom: 4%;
-    padding-top: 5.5%;
-    text-align: center;
-    padding-right: 10%;
+    margin-right: 10%;
+    padding-top: 150px;
+    background: url(bullets_top.png) no-repeat top;
 }
 
-.range img{
-    height: 195px;
-    width: 40px;
-}
-
-.range ul li{
-    color: #ffffff;
-    display: inline;
-}
-
-.range ul li:first-child{
+.range h1{
     font-size: 100px;
+    color: #ffffff;
 }
 
-.range ul li:last-child{
+.range h1 span{
     font-size: 50px;
+    vertical-align: top;
 }
 
 .range p{
-    color: #bbbbbb;
-    font-size: 12px;
+    color: #cdcdcf;
+    font-size: 13px;
 }
 
-#carbon {
-    background-color: #62647d;
+#bg2{
+    height: auto;
+    width: 100%; 
+}
+
+#bg2 .exterior{
+    background: #62647d;
     width: 50%;
-    height: 480px;
-    position: absolute;
+    height: 320px;
 }
 
+.exterior ul{
+    float: left;
+    margin: 80px 20%;
+}
+
+.exterior ul h1{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.exterior ul p{
+    font-size: 13px;
+    color: #cdcdcb;
+}
+
+#bg2 .img_exterior {
+    position: absolute;
+    right: 0;
+}
+
+.img_exterior {
+    height: 320px;
+    width: 50%;
+    background: url(exterior.jpg) no-repeat right center;
+    background-size: 100%;
+}
+
+#bg2 .bullet1 {
+    float: left;
+    width: 400px;
+    height: 40px;
+    background: url(bullets_right_long.png) no-repeat center;
+    position: absolute;
+    padding-top: 14%;
+    padding-left: 62%;
+}
+
+#bg3 {
+    height: auto;
+    width: 100%;
+}
+
+#bg3 .img_interior{
+    position: absolute;
+    left: 0;
+}
+
+.img_interior{
+    height: 320px;
+    width: 50%;
+    background: url(interior.png) no-repeat left center;
+    background-size: 100%;
+}
+
+#bg3 .interior{
+    float: right;
+    background: #30313e;
+    width: 50%;
+    height: 320px;
+}
+
+.interior ul{
+    float: right;
+    margin: 80px 20%;
+}
+
+.interior ul h1{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+.interior ul p{
+    font-size: 13px;
+    color: #cdcdcb;
+}
+
+#bg3 .bullet2 {
+    float: left;
+    width: 150px;
+    height: 40px;
+    background: url(bullets_left_short.png) no-repeat center;
+    position: absolute;
+    padding-top: 27%;
+    margin-left: 95%;
+}
+
+#bg4 {
+    overflow: hidden;
+    width: 100%;
+    height: 290px;
+    background: #ffffff;
+}
+
+#bg4 h1{
+    text-align: center;
+    margin-top: 115px;
+}
+
+#bg4 h1 a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background: #24242e;
+    padding: 45px 10%;
+}
+
+#bg4 p{
+    color: #707186;
+    text-align: center;
+    padding-top: 60px;
+    text-decoration: none;
+}
+
+#last_bg {
+    height: 120px;
+    width: 100%;
+    background: #62647d;
+}
+
+#last_bg img {
+    float: left;
+    margin-left: 47%;
+    margin-top: 33px;
+}

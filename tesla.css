@@ -6,7 +6,7 @@
 	background-size: 100%;
 	background-repeat: no-repeat 0 0; 
 	background-position: center;
-	position: absolute;
+    position: absolute;
 }
 
 .head {
@@ -16,12 +16,13 @@
 .head img {
 	float: left;
 	padding-left: 130px;
+    padding-top: 40px
 }
 
 .head ul {
 	list-style: none;
 	padding-right: 130px;
-	padding-top: 50px;
+	padding-top: 70px;
 	float: right;
 }
 
@@ -41,15 +42,16 @@
 	color: #ffffff;
 }
 
+.presentation{
+    overflow: hidden;
+}
+
 .presentation {
 	float: right;
-	padding-top: 140px;
-
-	margin-right: 10%;
-	padding-bottom: 160px;
-	background: url(bullets_bottom.png)no-repeat bottom left;
+	padding-right: 6%;
 	
 }
+
 
 .presentation h1 {
 	font-size: 40px;
@@ -57,9 +59,9 @@
 }
 
 .presentation p {
-	padding-top: 20px;
+	margin-top: 40px;
 	color: #cdcdcd;
-	padding-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .presentation a{
@@ -72,24 +74,134 @@
 	text-decoration: none;
 }
 
+.presentation h2{
+    padding-top: 45px; 
+    height: 130px;
+    width: 30px;
+}
+
+.button{
+    overflow: hidden;
+}
+
 .button ul{
 	float: left;
-	padding-top: 200px;
+	padding-top: 20%;
 	padding-left: 85px;
 }
 
 .button ul li {
 	background-color: #9a9ca9;
-	padding: 15px 15px;
-	margin-top: 24px;
+	padding: 10px 10px;
+	margin-bottom: 24px;
 	border-radius: 50%;
 }
 
 .button ul li:hover{
-	padding: 30px 30px;
-	margin-top: 27px;
+	padding: 10px 10px;
+	margin-bottom: 24px;
 	border-radius: 50%;
 	border: solid 1px;
 	border-color: white;
 	background-color: transparent;
 }
+
+.perfomance{
+    overflow: hidden;
+}
+
+.perfomance {
+    float: left;
+    padding-bottom: 4%;
+    padding-top: 8%;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.perfomance img{
+    height: 170px;
+    width: 40px;
+}
+
+.perfomance h2{
+    color: #ffffff;
+    font-size: 100px;
+    font-family: serif;
+}
+
+.perfomance p{
+    color: #bbbbbb;
+    font-size: 12px
+}
+
+.acceleration{
+    overflow: hidden;
+    float: left;
+    padding-bottom: 4%;
+    padding-top: 9%;
+    text-align: center;
+    padding-left: 18%;
+}
+
+.acceleration img{
+    height: 160px;
+    width: 40px;
+}
+
+.acceleration ul li{
+    color: #ffffff;
+    display: inline;
+}
+
+.acceleration ul li:first-child{
+    font-size: 100px;
+}
+
+.acceleration ul li:last-child{
+    font-size: 50px;
+}
+
+.acceleration p{
+    color: #bbbbbb;
+    font-size: 12px;
+}
+
+.range{
+    overflow: hidden;
+    float: right;
+    padding-bottom: 4%;
+    padding-top: 5.5%;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.range img{
+    height: 195px;
+    width: 40px;
+}
+
+.range ul li{
+    color: #ffffff;
+    display: inline;
+}
+
+.range ul li:first-child{
+    font-size: 100px;
+}
+
+.range ul li:last-child{
+    font-size: 50px;
+}
+
+.range p{
+    color: #bbbbbb;
+    font-size: 12px;
+}
+
+#carbon {
+    background-color: #62647d;
+    width: 50%;
+    height: 480px;
+    position: absolute;
+}
+
